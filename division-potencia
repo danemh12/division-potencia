@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<math.h>
+
+int a, b;
+
+int main(void){
+	
+	char primero[a];
+	char segundo [b];
+	int div, i, pot, a, b;
+	 
+	 printf("Dame el primer numero:\n");
+	 scanf ("%d", &a);
+	 
+	 printf("Dame el segundo numero:\n");
+	 scanf("%d", &b);
+	 
+	 {
+	 
+	 div=(a/b);
+	 pot=pow(a, b);
+	 printf(" La division es: %d\n", div, a, b);
+	 
+	 printf("Elevado a la potencia es: %d\n", pot, a, b);
+	 
+	return 0;
+	 
+	 }
+}
